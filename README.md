@@ -36,6 +36,8 @@ QUERY PLANE
                                        └─► {"answer": "..."}  HTTP 200
 ```
 
+![RAG Architecture Diagram](Rag%20diagram.excalidraw.png)
+
 > Visual diagram: [`notes/architecture-overview.excalidraw`](notes/architecture-overview.excalidraw) — open at [excalidraw.com](https://excalidraw.com) or via VS Code Excalidraw extension.
 
 ---

@@ -19,11 +19,18 @@ AWSCLIV2.pkg
 # Lambda bundled dependencies (rebuilt by deploy.sh via pip install)
 src/lambda/document_processor/*/
 src/lambda/document_processor/*.dist-info/
+src/lambda/document_processor/*.py
+!src/lambda/document_processor/handler.py
 src/lambda/rag_retriever/psycopg2/
 src/lambda/rag_retriever/psycopg2_binary*/
 src/lambda/data_query/psycopg2/
 src/lambda/data_query/psycopg2_binary*/
+src/infra/rds_setup_lambda/psycopg2/
+src/infra/rds_setup_lambda/psycopg2_binary*/
 
 # Generated outputs (contain live AWS resource IDs — gitignored)
 outputs/api_gateway_config.json
 output.json
+
+# Private notes — not for public repo
+notes/architecture-overview.md
